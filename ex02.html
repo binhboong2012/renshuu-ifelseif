@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>if else if</title>
+</head>
+<body>
+<script>
+    var userName = prompt ("Tên của bạn là gì?")
+    if(userName==="admin"){
+        var password= prompt("Hãy nhập mật khẩu của bạn vào")
+        if(password==="themaster") {
+            alert("wellcome")
+
+        }else if (password===""){
+            alert("canceld")
+
+        }else {
+            alert("wrong password")
+        }
+    }else if (userName==="") {
+        alert("canceld")
+    }else{
+        alert("I don't know you")
+    }
+
+
+
+
+
+</script>
+</body>
+</html>
